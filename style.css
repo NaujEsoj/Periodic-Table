@@ -4,33 +4,31 @@
     padding: 0;
 }
 
-.alkaline-earth-metals {
-    grid-area: 2 / 2 / 3 / 2;
-    background-color: orange;
+.actinoid {
+    background-color: lightblue;
 }
 
 .alkali-metals {
-    grid-area: 2 / 1 / 2 / 1;
-    background-color: greenyellow;
+    background-color: lightgoldenrodyellow;
+}
+
+.alkaline-metals {
+    background-color: orange;
+}
+
+.atomic-weight {
+    font-size: 70%;
 }
 
 .blank-1 {
-    border: solid 1px green;
     grid-area: 1 / 2 / 2 / 18;
 }
 
-
 .blank-2 {
-    border: solid 1px green;
     grid-area: 2 / 3 / 2 / 13;
 }
 
-.element:hover {
-    background-color: teal;
-}
-
 .blank-3 {
-    border: solid 1px green;
     grid-column-start: 3;
     grid-column-end: 13;
 }
@@ -40,10 +38,60 @@ body {
     min-height: 100%;
 }
 
-.element {
+.electron-shell {
+    font-size: 50%;
+}
+
+element {
+    align-content: center;
+    border: solid 2px white;
+    display: flex;
+    flex-flow: column;
+    height: 80px;
+}
+
+element:hover {
+    transform: scale(2);
+    transition: all 0.3s;
+    z-index: 2;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1::first-letter {
+    text-transform: capitalize;
+}
+
+.halogens {
+    background-color: seagreen;
+}
+
+.other-metals {
+    background-color: salmon;
+}
+
+.name {
+    font-size: 80%;
     color: red;
-    border: solid 1px red;
-    height: 50px;
+}
+
+.nbr {
+    text-align: start;
+    position: absolute;
+}
+
+.non-metal {
+    background-color: lightsalmon;
+}
+
+p {
+    text-align: center;
+}
+
+p::first-letter {
+    text-transform: capitalize;
 }
 
 .pt-container {
@@ -66,9 +114,12 @@ body {
     width: 60%;
 }
 
-.rare-elements {
-    grid-area: 3 / 3 / 4 / 3;
-    background-color: yellow;
+.rare-earth {
+    background-color: yellowgreen;
+}
+
+.symbol {
+
 }
 
 .title {
@@ -76,4 +127,8 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+}
+
+.transition-metals {
+    background-color: lightslategray;
 }
