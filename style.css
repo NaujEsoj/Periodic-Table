@@ -42,7 +42,7 @@ body {
     font-size: 50%;
 }
 
-element {
+article {
     align-content: center;
     border: solid 2px white;
     display: flex;
@@ -50,7 +50,7 @@ element {
     height: 80px;
 }
 
-element:hover {
+article:hover {
     transform: scale(2);
     transition: all 0.3s;
     z-index: 2;
