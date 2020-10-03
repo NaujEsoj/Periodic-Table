@@ -5,19 +5,29 @@
 }
 
 .actinoid {
-    background-color: lightblue;
+    background-color: whitesmoke;
 }
 
-.alkali-metals {
-    background-color: lightgoldenrodyellow;
+.alkali-metal {
+    background-color: DarkMagenta;
 }
 
-.alkaline-metals {
-    background-color: orange;
+.alkaline-earth-metal {
+    background-color: Crimson;
 }
 
-.atomic-weight {
-    font-size: 70%;
+article {
+    align-content: center;
+    border: solid 2px lightslategray;
+    display: flex;
+    flex-flow: column;
+    height: 80px;
+}
+
+article:hover {
+    transform: scale(2);
+    transition: all 0.3s;
+    z-index: 2;
 }
 
 .blank-1 {
@@ -34,7 +44,7 @@
 }
 
 body {
-    background-color: rgba(233, 233, 233, 0.603);
+    background-color: lightslategray;
     min-height: 100%;
 }
 
@@ -42,34 +52,21 @@ body {
     font-size: 50%;
 }
 
-article {
-    align-content: center;
-    border: solid 2px white;
-    display: flex;
-    flex-flow: column;
-    height: 80px;
-}
-
-article:hover {
-    transform: scale(2);
-    transition: all 0.3s;
-    z-index: 2;
-}
-
 h1 {
     text-align: center;
+    color: white;
 }
 
 h1::first-letter {
     text-transform: capitalize;
 }
 
-.halogens {
-    background-color: seagreen;
+.lanthanoid {
+    background: silver;
 }
 
-.other-metals {
-    background-color: salmon;
+.metalloid {
+    background-color: lime;
 }
 
 .name {
@@ -82,20 +79,28 @@ h1::first-letter {
     position: absolute;
 }
 
-.non-metal {
-    background-color: lightsalmon;
+.noble-gas {
+    background-color: #0ebeff
+}
+
+.other-nonmetal {
+    background-color: limegreen;
 }
 
 p {
     text-align: center;
+    color: white;
 }
 
 p::first-letter {
     text-transform: capitalize;
 }
 
+.post-transition-metal {
+    background-color: mediumturquoise;
+}
+
 .pt-container {
-    border: solid 1px black;
     display: grid;
     grid-template-columns: repeat(18, 5.5%);
     grid-template-rows: repeat(7,14.28% );
@@ -105,17 +110,12 @@ p::first-letter {
 }
 
 .pt-lant {
-    border: solid 1px black;
     display: grid;
     grid-template-columns: repeat(14, 7.14%);
     grid-template-rows: repeat(2, 5.5%);
     height: auto;
     margin: 30px auto;
     width: 60%;
-}
-
-.rare-earth {
-    background-color: yellowgreen;
 }
 
 .symbol {
@@ -129,6 +129,10 @@ p::first-letter {
     margin-top: 20px;
 }
 
-.transition-metals {
-    background-color: lightslategray;
+.transition-metal {
+    background-color: orange;
+}
+
+.unknown {
+    background-color: thistle;
 }
